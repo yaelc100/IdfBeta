@@ -2,18 +2,13 @@ package com.example.idfbeta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Intent si = new Intent(this,Login.class);
-        startActivity(si);
-
+        setContentView(R.layout.activity_login);
     }
 }
